@@ -51,6 +51,9 @@
           <element id="archive" name="atcrowdfunding04-admin-entity-1.0-SNAPSHOT.jar">
             <element id="module-output" name="atcrowdfunding04-admin-entity" />
           </element>
+          <element id="archive" name="atcrowdfunding05-common-util-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="atcrowdfunding05commonutil" />
+          </element>
         </element>
       </element>
       <element id="directory" name="META-INF">
