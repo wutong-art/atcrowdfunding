@@ -11,6 +11,6 @@ public class CrowdConstant {
     public static final String MESSAGE_ACCESS_FOREIGN = "抱歉！请登录以后再访问";
     public static final String ATTR_NAME_EXCEPTION = "exception";
 
-
+    public static final String MESSAGE_STRING_INVALIDATE = "字符串不合法！请不要传入空字符串";
 
 }
