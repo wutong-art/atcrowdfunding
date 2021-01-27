@@ -14,4 +14,6 @@ public interface AdminService {
 
     List<Admin> getAll();
 
+
+    Admin getAdminByLoginAcct(String loginAcct, String userPswd);
 }
