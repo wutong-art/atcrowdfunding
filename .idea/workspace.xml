@@ -6,36 +6,56 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9173d71-8db3-4bb1-9e0d-92e2df62e67d" name="Default Changelist" comment="md5加密">
-      <change afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/admin-main.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/include-head.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/include-nav.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/include-sidebar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/handler/AdminHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/interceptor/LoginInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/exception/AccessForbiddenException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/exception/LoginFailedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="f9173d71-8db3-4bb1-9e0d-92e2df62e67d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/admin-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/admin-edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/admin-page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/role-page.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/css/pagination.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/handler/RoleHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding04-admin-entity/src/main/java/com/wtcode/crowd/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding04-admin-entity/src/main/java/com/wtcode/crowd/entity/RoleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/exception/LoginAcctAlreadyInUseException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/exception/LoginAcctAlreadyInUseForUpdateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding06commonreverse/src/main/java/com/wtcode/crowd/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding06commonreverse/src/main/java/com/wtcode/crowd/entity/RoleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding06commonreverse/src/main/java/com/wtcode/crowd/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/atcrowdfunding06commonreverse/src/main/java/com/wtcode/crowd/mapper/RoleMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/spring-dao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/admin-login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/admin-login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/target/atcrowdfunding02-admin-webui/WEB-INF/admin-login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/target/atcrowdfunding02-admin-webui/WEB-INF/admin-login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/include-sidebar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/include-sidebar.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/jquery/jquery.pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/jquery/jquery.pagination.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/test/java/com/wtcode/CrowdTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/test/java/com/wtcode/CrowdTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/target/atcrowdfunding02-admin-webui/WEB-INF/classes/mybatis/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/target/atcrowdfunding02-admin-webui/WEB-INF/classes/mybatis/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/target/atcrowdfunding02-admin-webui/WEB-INF/classes/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/target/atcrowdfunding02-admin-webui/WEB-INF/classes/spring-dao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/target/atcrowdfunding02-admin-webui/WEB-INF/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/target/atcrowdfunding02-admin-webui/WEB-INF/classes/spring-mvc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/target/atcrowdfunding02-admin-webui/WEB-INF/lib/atcrowdfunding03-admin-component-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/target/atcrowdfunding02-admin-webui/WEB-INF/lib/atcrowdfunding03-admin-component-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/target/atcrowdfunding02-admin-webui/WEB-INF/lib/atcrowdfunding05-common-util-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/target/atcrowdfunding02-admin-webui/WEB-INF/lib/atcrowdfunding05-common-util-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/target/atcrowdfunding02-admin-webui/jquery/jquery.pagination.js" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/target/atcrowdfunding02-admin-webui/jquery/jquery.pagination.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/target/classes/mybatis/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/target/classes/mybatis/mapper/AdminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/target/classes/spring-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/target/classes/spring-dao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/target/classes/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/target/classes/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/atcrowdfunding03-admin-component.iml" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/atcrowdfunding03-admin-component.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/target/test-classes/com/wtcode/CrowdTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/target/test-classes/com/wtcode/CrowdTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mapper/AdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mapper/AdminMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/config/CrowdExceptionResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/config/CrowdExceptionResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/handler/AdminHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/handler/AdminHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/handler/TestHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/handler/TestHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/service/AdminService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/service/impl/AdminServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/target/classes/com/wtcode/crowd/mapper/AdminMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/target/classes/com/wtcode/crowd/mapper/AdminMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/target/classes/com/wtcode/crowd/mvc/config/CrowdExceptionResolver.class" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/target/classes/com/wtcode/crowd/mvc/config/CrowdExceptionResolver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/target/classes/com/wtcode/crowd/mvc/handler/TestHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/target/classes/com/wtcode/crowd/mvc/handler/TestHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/target/classes/com/wtcode/crowd/mvc/handler/TestHandler.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/target/classes/com/wtcode/crowd/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/target/classes/com/wtcode/crowd/service/AdminService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/target/classes/com/wtcode/crowd/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/target/classes/com/wtcode/crowd/service/impl/AdminServiceImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/constant/CrowdConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/constant/CrowdConstant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atcrowdfunding05commonutil/target/classes/com/wtcode/crowd/constant/CrowdConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding05commonutil/target/classes/com/wtcode/crowd/constant/CrowdConstant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/atcrowdfunding06commonreverse/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/atcrowdfunding06commonreverse/src/main/resources/generatorConfig.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/atcrowdfunding01adminparent/target/" />
     <ignored path="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/target/" />
@@ -66,20 +86,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/admin-login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-243">
-              <caret line="17" column="110" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="127" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/handler/AdminHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="737">
-              <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+            <state relative-caret-position="338">
+              <caret line="100" column="82" lean-forward="true" selection-start-line="96" selection-start-column="12" selection-end-line="100" selection-end-column="82" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,26 +101,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/spring-mvc.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="487">
-              <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+            <state relative-caret-position="106">
+              <caret line="41" column="78" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="78" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/admin-main.jsp">
+        <entry file="file://$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/exception/LoginAcctAlreadyInUseForUpdateException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
+            <state relative-caret-position="182">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/exception/LoginAcctAlreadyInUseException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/interceptor/LoginInterceptor.java">
+        <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/service/RoleService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="411">
-              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+            <state relative-caret-position="338">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,74 +138,56 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/exception/AccessForbiddenException.java">
+        <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mapper/RoleMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+            <state relative-caret-position="286">
+              <caret line="68" column="33" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/service/impl/RoleServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
               <folding>
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#269#270#0" expanded="true" />
-                <element signature="e#324#325#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#463#464#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#547#548#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/include-sidebar.jsp">
+        <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/handler/RoleHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1898">
-              <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
+            <state relative-caret-position="-473">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mapper/RoleMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
               <folding>
-                <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#span#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#span#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#2;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#span#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#0;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#1;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#2;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#3;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#5;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#6;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/include-nav.jsp">
+        <entry file="file://$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/util/ResultEntity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1014">
-              <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
+            <state relative-caret-position="26">
+              <caret line="25" column="64" lean-forward="true" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
               <folding>
-                <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#618#619#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/include-head.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="50" selection-start-line="50" selection-end-line="50" />
             </state>
           </provider>
         </entry>
@@ -195,10 +197,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
         <option value="Jsp File" />
         <option value="尚筹网后台JSP模板" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -209,28 +211,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/atcrowdfunding05-common-util/pom.xml" />
-        <option value="$PROJECT_DIR$/atcrowdfunding06commonreverse/pom.xml" />
-        <option value="$PROJECT_DIR$/atcrowdfunding06commonreverse/src/main/java/com/wtcode/crowd/entity/Admin.java" />
-        <option value="$PROJECT_DIR$/atcrowdfunding06commonreverse/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding04-admin-entity/src/main/java/com/wtcode/entity/Admin.java" />
-        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/mapper/AdminMapper.java" />
-        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/test/java/com/wtcode/crowd/CrowdTest.java" />
-        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding04-admin-entity/pom.xml" />
-        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mapper/AdminMapper.java" />
-        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/jdbc.properties" />
-        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/spring-dao.xml" />
-        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding04-admin-entity/src/main/java/com/wtcode/crowd/entity/Admin.java" />
-        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/spring-service.xml" />
-        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/test/java/com/wtcode/CrowdTest.java" />
-        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/target.jsp" />
         <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/target.jsp" />
         <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/pom.xml" />
         <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/pom.xml" />
-        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mapper/AdminMapper.xml" />
         <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding04-admin-entity/src/main/java/com/wtcode/crowd/entity/ParamData.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding04-admin-entity/src/main/java/com/wtcode/crowd/entity/Address.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding04-admin-entity/src/main/java/com/wtcode/crowd/entity/Subject.java" />
@@ -240,24 +224,44 @@
         <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/pom.xml" />
         <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/config/CrowdExceptionResolver.txt" />
         <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/handler/TestHandler.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/system-error.jsp" />
         <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/test/java/com/wtcode/StringTest.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/util/CrowdUtil.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/exception/LoginFailedException.java" />
-        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/config/CrowdExceptionResolver.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/admin-login.jsp" />
-        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/service/AdminService.java" />
-        <option value="$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/constant/CrowdConstant.java" />
-        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/service/impl/AdminServiceImpl.java" />
-        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/handler/AdminHandler.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/include-head.jsp" />
         <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/include-nav.jsp" />
-        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/include-sidebar.jsp" />
         <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/admin-main.jsp" />
         <option value="$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/exception/AccessForbiddenException.java" />
         <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/interceptor/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mapper/AdminMapper.xml" />
+        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mapper/AdminMapper.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/constant/CrowdConstant.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/include-sidebar.jsp" />
+        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/test/java/com/wtcode/CrowdTest.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/jquery/jquery.pagination.js" />
+        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/admin-add.jsp" />
+        <option value="$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/exception/LoginAcctAlreadyInUseException.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/admin-page.jsp" />
+        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/admin-edit.jsp" />
+        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/handler/AdminHandler.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/service/AdminService.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/exception/LoginAcctAlreadyInUseForUpdateException.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/service/impl/AdminServiceImpl.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/config/CrowdExceptionResolver.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/test.jsp" />
         <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/test.jsp" />
+        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/handler/TestHandler.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/role-page.jsp" />
+        <option value="$PROJECT_DIR$/atcrowdfunding06commonreverse/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/atcrowdfunding06commonreverse/src/main/java/com/wtcode/crowd/entity/Role.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mapper/RoleMapper.xml" />
+        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/service/RoleService.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/service/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/handler/RoleHandler.java" />
+        <option value="$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mapper/RoleMapper.java" />
       </list>
     </option>
   </component>
@@ -327,7 +331,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -367,7 +371,35 @@
               <item name="atcrowdfunding02-admin-webui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atcrowdfunding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atcrowdfunding01adminparent" type="462c0819:PsiDirectoryNode" />
+              <item name="atcrowdfunding02-admin-webui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atcrowdfunding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atcrowdfunding01adminparent" type="462c0819:PsiDirectoryNode" />
+              <item name="atcrowdfunding02-admin-webui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="atcrowdfunding" type="b2602c69:ProjectViewProjectNode" />
+              <item name="atcrowdfunding01adminparent" type="462c0819:PsiDirectoryNode" />
+              <item name="atcrowdfunding02-admin-webui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="atcrowdfunding" type="b2602c69:ProjectViewProjectNode" />
@@ -688,13 +720,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611713408706" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1611906192223" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -707,19 +739,21 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JAVAproject\面试项目\atcrowdfunding\atcrowdfunding01adminparent\atcrowdfunding02-admin-webui\src\main\webapp" />
       <recent name="D:\JAVAproject\面试项目\atcrowdfunding\atcrowdfunding01adminparent\atcrowdfunding02-admin-webui\src\main\webapp\WEB-INF" />
       <recent name="D:\JAVAproject\面试项目\atcrowdfunding\atcrowdfunding01adminparent\atcrowdfunding02-admin-webui\src\main\resources\mybatis" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.wtcode.crowd.mapper" />
+      <recent name="com.wtcode.crowd.exception" />
       <recent name="com.wtcode.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\JAVAproject\面试项目\atcrowdfunding\atcrowdfunding01adminparent\atcrowdfunding02-admin-webui\src\main\webapp" />
       <recent name="D:\JAVAproject\面试项目\atcrowdfunding\atcrowdfunding01adminparent\atcrowdfunding02-admin-webui\src\main\resources\mybatis\mapper" />
-      <recent name="D:\JAVAproject\面试项目\atcrowdfunding\atcrowdfunding01adminparent\atcrowdfunding02-admin-webui\src\main\resources" />
       <recent name="D:\JAVAproject\面试项目\atcrowdfunding\atcrowdfunding01adminparent\atcrowdfunding04-admin-entity\src\main\java\com\wtcode\crowd\entity" />
-      <recent name="D:\JAVAproject\面试项目\atcrowdfunding\atcrowdfunding01adminparent\src\main\java\com\wtcode\crowd\entity" />
+      <recent name="D:\JAVAproject\面试项目\atcrowdfunding\atcrowdfunding01adminparent\atcrowdfunding02-admin-webui\src\main\webapp\css" />
+      <recent name="D:\JAVAproject\面试项目\atcrowdfunding\atcrowdfunding01adminparent\atcrowdfunding02-admin-webui\src\main\webapp" />
+      <recent name="D:\JAVAproject\面试项目\atcrowdfunding\atcrowdfunding01adminparent\atcrowdfunding02-admin-webui\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -735,6 +769,22 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat">
+    <configuration name="CrowdTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="atcrowdfunding02-admin-webui" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wtcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wtcode" />
+      <option name="MAIN_CLASS_NAME" value="com.wtcode.CrowdTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CrowdTest.testConnection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="atcrowdfunding02adminwebui" />
       <extension name="coverage">
@@ -746,22 +796,6 @@
       <option name="PACKAGE_NAME" value="com.wtcode" />
       <option name="MAIN_CLASS_NAME" value="com.wtcode.CrowdTest" />
       <option name="METHOD_NAME" value="testConnection" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CrowdTest.testInsertAdmin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="atcrowdfunding02adminwebui" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wtcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wtcode" />
-      <option name="MAIN_CLASS_NAME" value="com.wtcode.CrowdTest" />
-      <option name="METHOD_NAME" value="testInsertAdmin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -889,10 +923,9 @@
       <method v="2" />
     </configuration>
     <configuration name="Tomcat" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.57" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/" />
+      <option name="OPEN_IN_BROWSER" value="false" />
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
-      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
-      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="atcrowdfunding02-admin-webui:war exploded">
           <settings>
@@ -965,20 +998,20 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.CrowdTest.testConnection" />
-      <item itemvalue="JUnit.CrowdTest.testInsertAdmin" />
       <item itemvalue="JUnit.CrowdTest.testLog" />
       <item itemvalue="JUnit.CrowdTest.testTx" />
       <item itemvalue="JUnit.StringTest.testMd5" />
+      <item itemvalue="JUnit.CrowdTest.test" />
       <item itemvalue="Maven.mybatisgenerator" />
       <item itemvalue="Tomcat Server.Tomcat" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CrowdTest.test" />
         <item itemvalue="JUnit.StringTest.testMd5" />
         <item itemvalue="JUnit.CrowdTest.testTx" />
         <item itemvalue="JUnit.CrowdTest.testConnection" />
         <item itemvalue="JUnit.CrowdTest.testLog" />
-        <item itemvalue="JUnit.CrowdTest.testInsertAdmin" />
       </list>
     </recent_temporary>
   </component>
@@ -1002,7 +1035,9 @@
       <workItem from="1611449272980" duration="4620000" />
       <workItem from="1611535292954" duration="16242000" />
       <workItem from="1611566664381" duration="4904000" />
-      <workItem from="1611632274691" duration="13604000" />
+      <workItem from="1611632274691" duration="22504000" />
+      <workItem from="1611795142071" duration="15448000" />
+      <workItem from="1611879592934" duration="8451000" />
     </task>
     <task id="LOCAL-00001" summary="在第一次基础上加了Ajax和异常映射">
       <created>1611576245391</created>
@@ -1039,19 +1074,17 @@
       <option name="project" value="LOCAL" />
       <updated>1611634514978</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="md5加密">
+      <created>1611713422709</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611713422709</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CrowdTest_testInsertAdmin - 2021.01.18 at 10h 22m 45s.xml">
-      <configuration name="CrowdTest.testInsertAdmin" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CrowdTest_testLog - 2021.01.18 at 10h 33m 15s.xml">
-      <configuration name="CrowdTest.testLog" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CrowdTest_testLog - 2021.01.18 at 10h 33m 49s.xml">
-      <configuration name="CrowdTest.testLog" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CrowdTest_testLog - 2021.01.18 at 10h 34m 48s.xml">
       <configuration name="CrowdTest.testLog" configurationId="JUnit" />
     </history-entry>
@@ -1073,9 +1106,18 @@
     <history-entry file="StringTest_testMd5 - 2021.01.26 at 18h 31m 08s.xml">
       <configuration name="StringTest.testMd5" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CrowdTest_test - 2021.01.27 at 16h 19m 59s.xml">
+      <configuration name="CrowdTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CrowdTest_test - 2021.01.27 at 16h 20m 45s.xml">
+      <configuration name="CrowdTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CrowdTest_test - 2021.01.28 at 10h 36m 30s.xml">
+      <configuration name="CrowdTest.test" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113792000" />
+    <option name="totallyTimeSpent" value="146591000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1090,7 +1132,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2191689" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23190348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1100,13 +1142,13 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.04398827" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.7903226" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.26246333" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.329429" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.329429" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329429" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32844576" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32844576" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32844576" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50067025" side_tool="true" weight="0.95607615" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.94134897" />
@@ -1140,275 +1182,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/jquery/jquery-2.1.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/target.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/environment/Maven/repo/settings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="168" selection-start-line="162" selection-start-column="8" selection-end-line="168" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="49" selection-start-line="49" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mapper/AdminMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1560">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding06commonreverse/src/main/java/com/wtcode/crowd/mapper/AdminMapper.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="65" column="24" selection-start-line="65" selection-start-column="24" selection-end-line="65" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding04-admin-entity/src/main/java/com/wtcode/crowd/entity/ParamData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          <folding>
-            <element signature="e#206#207#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#317#318#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding04-admin-entity/src/main/java/com/wtcode/crowd/entity/Address.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1196">
-          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
-          <folding>
-            <element signature="e#421#422#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#598#599#0" expanded="true" />
-            <element signature="e#638#639#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#703#704#0" expanded="true" />
-            <element signature="e#732#733#0" expanded="true" />
-            <element signature="e#776#777#0" expanded="true" />
-            <element signature="e#812#813#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding04-admin-entity/src/main/java/com/wtcode/crowd/entity/Subject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="962">
-          <caret line="37" column="18" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-          <folding>
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#535#536#0" expanded="true" />
-            <element signature="e#574#575#0" expanded="true" />
-            <element signature="e#609#610#0" expanded="true" />
-            <element signature="e#665#666#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding04-admin-entity/src/main/java/com/wtcode/crowd/entity/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1710">
-          <caret line="70" column="18" selection-start-line="70" selection-start-column="18" selection-end-line="70" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#767#768#0" expanded="true" />
-            <element signature="e#801#802#0" expanded="true" />
-            <element signature="e#835#836#0" expanded="true" />
-            <element signature="e#865#866#0" expanded="true" />
-            <element signature="e#911#912#0" expanded="true" />
-            <element signature="e#949#950#0" expanded="true" />
-            <element signature="e#984#985#0" expanded="true" />
-            <element signature="e#1014#1015#0" expanded="true" />
-            <element signature="e#1061#1062#0" expanded="true" />
-            <element signature="e#1099#1100#0" expanded="true" />
-            <element signature="e#1144#1145#0" expanded="true" />
-            <element signature="e#1178#1179#0" expanded="true" />
-            <element signature="e#1239#1240#0" expanded="true" />
-            <element signature="e#1285#1286#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#1354#1355#0" expanded="true" />
-            <element signature="e#1405#1406#0" expanded="true" />
-            <element signature="e#1435#1436#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding04-admin-entity/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/util/ResultEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-624">
-          <caret line="3" column="48" selection-start-line="3" selection-start-column="48" selection-end-line="3" selection-end-column="48" />
-          <folding>
-            <element signature="e#449#450#0" expanded="true" />
-            <element signature="e#513#514#0" expanded="true" />
-            <element signature="e#1271#1272#0" expanded="true" />
-            <element signature="e#1300#1301#0" expanded="true" />
-            <element signature="e#1344#1345#0" expanded="true" />
-            <element signature="e#1380#1381#0" expanded="true" />
-            <element signature="e#1414#1415#0" expanded="true" />
-            <element signature="e#1444#1445#0" expanded="true" />
-            <element signature="e#1490#1491#0" expanded="true" />
-            <element signature="e#1528#1529#0" expanded="true" />
-            <element signature="e#1554#1555#0" expanded="true" />
-            <element signature="e#1581#1582#0" expanded="true" />
-            <element signature="e#1616#1617#0" expanded="true" />
-            <element signature="e#1648#1649#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding05commonutil/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="132" column="21" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/environment/Maven/repo/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="140" selection-start-line="140" selection-end-line="140" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/environment/Maven/repo/org/springframework/spring-webmvc/5.0.2.RELEASE/spring-webmvc-5.0.2.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ExceptionHandlerExceptionResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="430" selection-start-line="430" selection-end-line="430" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/environment/Maven/repo/org/springframework/spring-webmvc/5.0.2.RELEASE/spring-webmvc-5.0.2.RELEASE-sources.jar!/org/springframework/web/servlet/FrameworkServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="856" selection-start-line="856" selection-end-line="856" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/environment/Maven/repo/org/springframework/spring-webmvc/5.0.2.RELEASE/spring-webmvc-5.0.2.RELEASE-sources.jar!/org/springframework/web/servlet/DispatcherServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="934" selection-start-line="934" selection-end-line="934" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/environment/Maven/repo/org/springframework/spring-webmvc/5.0.2.RELEASE/spring-webmvc-5.0.2.RELEASE-sources.jar!/org/springframework/web/servlet/handler/AbstractHandlerExceptionResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="143" selection-start-line="143" selection-end-line="143" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/environment/Maven/repo/org/springframework/spring-webmvc/5.0.2.RELEASE/spring-webmvc-5.0.2.RELEASE-sources.jar!/org/springframework/web/servlet/handler/AbstractHandlerMethodExceptionResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/environment/Maven/repo/org/springframework/spring-webmvc/5.0.2.RELEASE/spring-webmvc-5.0.2.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/environment/Maven/repo/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE-sources.jar!/org/springframework/web/filter/OncePerRequestFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/environment/Maven/repo/org/springframework/spring-web/5.0.2.RELEASE/spring-web-5.0.2.RELEASE-sources.jar!/org/springframework/web/filter/CharacterEncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="200" selection-start-line="200" selection-end-line="200" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/config/CrowdExceptionResolver.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="78" selection-start-line="78" selection-end-line="78" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2064">
-          <caret line="127" column="16" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/system-error.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="582">
-          <caret line="52" column="58" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/exception/LoginFailedException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -1426,47 +1199,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/config/CrowdExceptionResolver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/service/AdminService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding04-admin-entity/src/main/java/com/wtcode/crowd/entity/Admin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="676">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding04-admin-entity/src/main/java/com/wtcode/crowd/entity/AdminExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2288">
           <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mapper/AdminMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1483,108 +1219,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/service/impl/AdminServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/spring-service.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="74" column="21" selection-start-line="74" selection-start-column="21" selection-end-line="74" selection-end-column="21" />
+        <state relative-caret-position="-843" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="132" column="21" selection-start-line="132" selection-start-column="21" selection-end-line="132" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/environment/Maven/repo/org/mybatis/mybatis-spring/1.3.2/mybatis-spring-1.3.2-sources.jar!/org/mybatis/spring/SqlSessionFactoryBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="188" column="14" selection-start-line="188" selection-start-column="14" selection-end-line="188" selection-end-column="14" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#5886#5887#0" expanded="true" />
+            <element signature="e#5918#5919#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/util/CrowdUtil.java">
+    <entry file="jar://D:/environment/Maven/repo/com/github/pagehelper/pagehelper/4.0.0/pagehelper-4.0.0-sources.jar!/com/github/pagehelper/PageHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+        <state relative-caret-position="-2920">
+          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="379">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/environment/Maven/repo/com/github/pagehelper/pagehelper/4.0.0/pagehelper-4.0.0-sources.jar!/com/github/pagehelper/PageInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="92" column="11" selection-start-line="92" selection-start-column="11" selection-end-line="92" selection-end-column="11" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2574#2575#0" expanded="true" />
+            <element signature="e#2603#2604#0" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/css/pagination.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/constant/CrowdConstant.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/include-head.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/include-nav.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1014">
-          <caret line="39" column="6" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#nav#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/include-sidebar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1898">
-          <caret line="73" column="6" selection-start-line="73" selection-start-column="6" selection-end-line="73" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#span#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#0;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#3;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#4;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#5;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#6;n#ul#0;n#li#3;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/admin-main.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="48" column="7" selection-start-line="48" selection-start-column="7" selection-end-line="48" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/exception/AccessForbiddenException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding>
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#324#325#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#547#548#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="572">
+          <caret line="22" column="62" selection-start-line="22" selection-start-column="62" selection-end-line="22" selection-end-column="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/interceptor/LoginInterceptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
+        <state relative-caret-position="650">
           <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1592,17 +1287,250 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/spring-mvc.xml">
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/exception/AccessForbiddenException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="487">
-          <caret line="54" column="23" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+        <state relative-caret-position="78">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/jquery/jquery.pagination.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1711">
+          <caret line="157" column="45" selection-start-line="157" selection-start-column="45" selection-end-line="157" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding04-admin-entity/src/main/java/com/wtcode/crowd/entity/Admin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-234" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/test/java/com/wtcode/CrowdTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/test.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/handler/TestHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="81" column="35" selection-start-line="81" selection-start-column="22" selection-end-line="81" selection-end-column="35" />
+        <state relative-caret-position="-312">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/config/CrowdExceptionResolver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/include-sidebar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1076">
+          <caret line="16" column="58" lean-forward="true" selection-start-line="16" selection-start-column="58" selection-end-line="16" selection-end-column="58" />
+          <folding>
+            <element signature="n#style#0;n#li#1;n#ul#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/admin-login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/admin-main.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/service/impl/AdminServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="114" column="57" lean-forward="true" selection-start-line="114" selection-start-column="57" selection-end-line="114" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1961#1962#0" expanded="true" />
+            <element signature="e#2031#2032#0" expanded="true" />
+            <element signature="e#3864#3865#0" expanded="true" />
+            <element signature="e#3919#3920#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/include-head.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/include-nav.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="13" column="58" lean-forward="true" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/system-error.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="52" column="58" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2028">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/target.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-22" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/admin-add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/admin-edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-296">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/admin-page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="58" column="34" lean-forward="true" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/role-page.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3666">
+          <caret line="153" column="14" selection-start-line="153" selection-start-column="14" selection-end-line="153" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding06commonreverse/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="46" column="56" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/util/CrowdUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1152">
+          <caret line="48" column="27" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding04-admin-entity/src/main/java/com/wtcode/crowd/entity/RoleExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-130">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding04-admin-entity/src/main/java/com/wtcode/crowd/entity/Role.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding06commonreverse/src/main/java/com/wtcode/crowd/entity/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#280#281#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mapper/AdminMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="75" column="40" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="106">
+          <caret line="41" column="78" selection-start-line="41" selection-start-column="33" selection-end-line="41" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/mybatis/mapper/RoleMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="68" column="33" selection-start-line="68" selection-start-column="14" selection-end-line="68" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mapper/AdminMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/service/AdminService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1611,30 +1539,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/handler/AdminHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="737">
-          <caret line="39" column="52" selection-start-line="39" selection-start-column="52" selection-end-line="39" selection-end-column="52" />
+        <state relative-caret-position="338">
+          <caret line="100" column="82" lean-forward="true" selection-start-line="96" selection-start-column="12" selection-end-line="100" selection-end-column="82" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/spring-dao.xml">
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/util/ResultEntity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+        <state relative-caret-position="26">
+          <caret line="25" column="64" lean-forward="true" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+          <folding>
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#618#619#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/resources/spring-service.xml">
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/service/impl/RoleServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-843" />
+        <state relative-caret-position="359">
+          <caret line="31" column="40" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding02-admin-webui/src/main/webapp/WEB-INF/admin-login.jsp">
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/service/RoleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-243">
-          <caret line="17" column="110" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="127" />
+        <state relative-caret-position="338">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mapper/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="16" column="16" lean-forward="true" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding01adminparent/atcrowdfunding03-admin-component/src/main/java/com/wtcode/crowd/mvc/handler/RoleHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-473">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/exception/LoginAcctAlreadyInUseForUpdateException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atcrowdfunding05commonutil/src/main/java/com/wtcode/crowd/exception/LoginAcctAlreadyInUseException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
         </state>
       </provider>
     </entry>

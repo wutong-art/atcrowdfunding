@@ -31,6 +31,7 @@ public class TestHandler {
 
     private Logger logger = LoggerFactory.getLogger(TestHandler.class);
 
+
     @ResponseBody
     @RequestMapping("/send/compose/object.json")
     public ResultEntity<Student> testReceiveComposeObject(@RequestBody Student student,HttpServletRequest request){

@@ -2,9 +2,12 @@ package com.wtcode.crowd.mvc.config;
 
 import com.google.gson.Gson;
 import com.wtcode.crowd.constant.CrowdConstant;
+import com.wtcode.crowd.exception.LoginAcctAlreadyInUseException;
+import com.wtcode.crowd.exception.LoginAcctAlreadyInUseForUpdateException;
 import com.wtcode.crowd.exception.LoginFailedException;
 import com.wtcode.crowd.util.CrowdUtil;
 import com.wtcode.crowd.util.ResultEntity;
+import org.springframework.dao.DuplicateKeyException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.servlet.ModelAndView;
@@ -21,6 +24,20 @@ import java.io.IOException;
 //@ControllerAdvice表示当前类是一个基于注解异常处理器类
 @ControllerAdvice
 public class CrowdExceptionResolver {
+
+    @ExceptionHandler(value = LoginAcctAlreadyInUseForUpdateException.class)
+    public ModelAndView resolveLoginAcctAlreadyInUseForUpdateException(LoginAcctAlreadyInUseForUpdateException exception,HttpServletRequest request,HttpServletResponse response) throws IOException {
+        String viewName = "system-error";
+        return commonResolve(viewName,exception,request,response);
+    }
+
+
+    @ExceptionHandler(value = LoginAcctAlreadyInUseException.class)
+    public ModelAndView resolveLoginAcctAlreadyInUseException(LoginAcctAlreadyInUseException exception,HttpServletRequest request,HttpServletResponse response) throws IOException {
+        String viewName = "admin-add";
+        return commonResolve(viewName,exception,request,response);
+    }
+
 
     @ExceptionHandler(value = LoginFailedException.class)
     public ModelAndView resolveLoginFailedException(LoginFailedException exception,HttpServletRequest request,HttpServletResponse response) throws IOException {
