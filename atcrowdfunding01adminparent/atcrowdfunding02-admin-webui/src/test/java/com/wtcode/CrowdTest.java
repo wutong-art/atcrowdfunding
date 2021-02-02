@@ -1,7 +1,9 @@
 package com.wtcode;
 
 import com.wtcode.crowd.entity.Admin;
+import com.wtcode.crowd.entity.Role;
 import com.wtcode.crowd.mapper.AdminMapper;
+import com.wtcode.crowd.mapper.RoleMapper;
 import com.wtcode.crowd.service.AdminService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -32,6 +34,16 @@ public class CrowdTest {
 
     @Autowired
     private AdminService adminService;
+
+    @Autowired
+    private RoleMapper roleMapper;
+
+    @Test
+    public void testRoleSave(){
+        for(int i = 0 ; i < 235 ; i++){
+            roleMapper.insert(new Role(null,"role"+i));
+        }
+    }
 
     @Test
     public void test(){

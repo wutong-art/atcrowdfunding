@@ -23,7 +23,7 @@
       <module name="atcrowdfunding04-admin-entity" target="1.5" />
       <module name="atcrowdfunding04adminentity" target="1.5" />
       <module name="atcrowdfunding05-common-util" target="1.5" />
-      <module name="atcrowdfunding05commonutil" target="1.5" />
+      <module name="atcrowdfunding05commonutil" target="7" />
       <module name="atcrowdfunding06commonreverse" target="1.5" />
     </bytecodeTargetLevel>
   </component>
