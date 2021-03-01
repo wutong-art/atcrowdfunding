@@ -65,6 +65,12 @@ public class CrowdExceptionResolver {
 
     }
 
+    @ExceptionHandler(value = Exception.class)
+    public ModelAndView resolveException(Exception exception,HttpServletRequest request,HttpServletResponse response) throws IOException {
+        String viewName = "admin-login";
+        return commonResolve(viewName,exception,request,response);
+    }
+
     private ModelAndView commonResolve(String viewName,Exception exception,HttpServletRequest request,HttpServletResponse response) throws IOException {
         //1.判断当前请求的类型
         boolean judgeResult = CrowdUtil.judgeRequestType(request);

@@ -44,20 +44,20 @@
     <mvc:view-controller path="/role/to/page.html" view-name="role-page"></mvc:view-controller>
     <mvc:view-controller path="/menu/to/page.html" view-name="menu-page"></mvc:view-controller>
 
-    <!--注册拦截器-->
+    <!--&lt;!&ndash;注册拦截器&ndash;&gt;
     <mvc:interceptors>
         <mvc:interceptor>
-            <!--mvc:mapping配置要拦截的资源-->
-            <!--/*对应一层路径，比如：/aaa-->
-            <!--/**对应多层路径，比如：/aaa/aaa/bbb-->
+            &lt;!&ndash;mvc:mapping配置要拦截的资源&ndash;&gt;
+            &lt;!&ndash;/*对应一层路径，比如：/aaa&ndash;&gt;
+            &lt;!&ndash;/**对应多层路径，比如：/aaa/aaa/bbb&ndash;&gt;
             <mvc:mapping path="/**"/>
             <mvc:exclude-mapping path="/admin/to/login/page.html"/>
             <mvc:exclude-mapping path="/admin/do/login.html"/>
             <mvc:exclude-mapping path="/admin/do/logout.html"/>
-            <!--配置拦截器的类-->
+            &lt;!&ndash;配置拦截器的类&ndash;&gt;
             <bean class="com.wtcode.crowd.mvc.interceptor.LoginInterceptor"></bean>
         </mvc:interceptor>
-    </mvc:interceptors>
+    </mvc:interceptors>-->
 
 
 </beans>

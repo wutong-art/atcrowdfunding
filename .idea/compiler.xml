@@ -16,9 +16,9 @@
     <bytecodeTargetLevel>
       <module name="atcrowdfunding01-admin-parent" target="1.8" />
       <module name="atcrowdfunding02-admin-webui" target="1.8" />
-      <module name="atcrowdfunding03-admin-component" target="1.8" />
+      <module name="atcrowdfunding03-admin-component" target="7" />
       <module name="atcrowdfunding04-admin-entity" target="1.8" />
-      <module name="atcrowdfunding05commonutil" target="1.8" />
+      <module name="atcrowdfunding05commonutil" target="7" />
       <module name="atcrowdfunding06commonreverse" target="1.8" />
     </bytecodeTargetLevel>
   </component>

@@ -5,6 +5,7 @@ import com.wtcode.crowd.entity.Role;
 import com.wtcode.crowd.service.RoleService;
 import com.wtcode.crowd.util.ResultEntity;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -47,6 +48,7 @@ public class RoleHandler {
 
     }
 
+    @PreAuthorize("hasRole('部长')")
     @RequestMapping("role/get/page/info.json")
     public ResultEntity<PageInfo<Role>> getPageInfo(
             @RequestParam(value = "keyword",defaultValue = "") String keyword,

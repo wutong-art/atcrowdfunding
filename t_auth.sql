@@ -15,6 +15,6 @@ INSERT INTO t_auth(id,`name`,title,category_id) VALUES(6,'role:get','查询',4);
 INSERT INTO t_auth(id,`name`,title,category_id) VALUES(7,'role:add','新增',4);
 
 
-SELECT * FROM t_auth;
+select * from t_auth;
 
 
